@@ -19,6 +19,7 @@ const getImages = (query) => {
     .catch(err => console.log(err))
    
 }
+
 // show images 
 const showImages = (images) => {
   imagesArea.style.display = 'block';
@@ -37,7 +38,6 @@ const showImages = (images) => {
   toggleSpinner();
 
 }
-
 
 let slideIndex = 0;
 const selectItem = (event, img) => {
